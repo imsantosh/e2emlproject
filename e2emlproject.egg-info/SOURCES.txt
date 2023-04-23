@@ -1,0 +1,8 @@
+README.md
+setup.py
+e2emlproject.egg-info/PKG-INFO
+e2emlproject.egg-info/SOURCES.txt
+e2emlproject.egg-info/dependency_links.txt
+e2emlproject.egg-info/requires.txt
+e2emlproject.egg-info/top_level.txt
+src/__init__.py
