@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/santosh/Desktop/santosh/learnings/MLD/MLProjects/end2endmlproject/e2evenv
+exec_prefix=/Users/santosh/Desktop/santosh/learnings/MLD/MLProjects/end2endmlproject/e2evenv
+libdir=/Users/santosh/Desktop/santosh/learnings/MLD/MLProjects/end2endmlproject/e2evenv/lib
+includedir=/Users/santosh/Desktop/santosh/learnings/MLD/MLProjects/end2endmlproject/e2evenv/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.10
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread

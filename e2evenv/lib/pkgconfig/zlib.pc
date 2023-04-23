@@ -1,0 +1,13 @@
+prefix=/Users/santosh/Desktop/santosh/learnings/MLD/MLProjects/end2endmlproject/e2evenv
+exec_prefix=/Users/santosh/Desktop/santosh/learnings/MLD/MLProjects/end2endmlproject/e2evenv
+libdir=/Users/santosh/Desktop/santosh/learnings/MLD/MLProjects/end2endmlproject/e2evenv/lib
+sharedlibdir=/Users/santosh/Desktop/santosh/learnings/MLD/MLProjects/end2endmlproject/e2evenv/lib
+includedir=/Users/santosh/Desktop/santosh/learnings/MLD/MLProjects/end2endmlproject/e2evenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
